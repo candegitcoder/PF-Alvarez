@@ -1,0 +1,199 @@
+.bg-gray{
+    background-image: linear-gradient(
+        320deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 100% 15%) 3%,
+        hsl(0deg 100% 19%) 7%,
+        hsl(6deg 100% 23%) 12%,
+        hsl(16deg 100% 27%) 18%,
+        hsl(21deg 100% 31%) 26%,
+        hsl(23deg 90% 38%) 39%,
+        hsl(22deg 73% 47%) 60%,
+        hsl(21deg 79% 55%) 82%,
+        hsl(21deg 100% 64%) 100%
+      );
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    text-align: center;
+   
+}
+
+header  nav ul li a {
+    padding: 0px 200px;
+}
+
+main{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+}
+
+.billetera:hover{
+    transform: translate(20px, 20px);
+}
+.bar:hover{
+    transform: scale(2)
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 50px
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.bar{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+
+.row-bares{
+    margin: 20px;
+    padding: 100px;
+}
+
+
+.row-bares{
+    display: flex;
+    justify-content: center;
+}
+
+.iconmapa{
+    height: 80px;
+    width: 80px;
+}
+
+.section{
+    text-align: center;
+}
+
+.letramapa{
+    font-size: 30px;
+    color: white;
+}
+
+.letrareco{
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+}
+
+.recomiendo{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+.estrellas{
+    width: 110px;
+    height: 20px;
+}
+
+.descuentos2{
+    width: 90%;
+    height: 300px;
+    margin:0px;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+    top: 30px;
+ 
+}
+
+.diver {
+    width: 100px;
+    height: 100px;
+    margin:0px;
+    border: 0px;
+    float: left;
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.imagenn {
+        width: 500px;
+        height: 200px;
+        margin: 0px;
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        bottom: 100px;
+}
+
+.billetera{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+.bimagen{
+    width: 200px;
+    height: 200px;
+}
+
+.destacado{
+    margin: 0%;
+    border: 0px;
+}
+
+.dimagen{
+    width: 100px;
+    height: 100px;
+}
+
+.mapa{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.icono{
+    width: 80px;
+    height: 80px;
+}
+
+.comentarios{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        
+}
+
+.somos{
+    margin: 50px;
+}
+
+.buscar{
+    border-radius: 20px;
+}
