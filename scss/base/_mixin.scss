@@ -1,0 +1,26 @@
+@mixin area{
+    padding:0px 200px;
+}
+
+@mixin texto{
+    text-align: center;
+    text-decoration: none;
+}
+
+@mixin distribucion{
+    justify-content: center;
+}
+
+@mixin espacio{
+    display: center;
+}
+
+@mixin inline{
+    display: inline-block;
+}
+
+@mixin vacio{
+    padding:0%;
+    margin:0%;
+    border:0%;
+}

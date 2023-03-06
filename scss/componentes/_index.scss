@@ -1,0 +1,84 @@
+header{
+    nav{
+        ul{@include texto;
+            li{
+                a{
+                    @include area;
+                    @include texto;
+                    font-size: nth($f-size , 1);
+                }
+            }
+        }
+    }
+}
+
+.nav-item{
+    width: nth($width , 4 );
+    height: nth($height , 4 )
+}
+
+main{
+    @include texto;
+    color: nth($colores , 1);
+    font-size: nth($f-size , 2);
+}
+
+.row-bares{
+    @include distribucion;
+    @include espacio;
+    margin: nth($margin, 2);
+    padding: nth($padding , 2);
+}
+
+.bar{
+    width: nth($width , 6);
+    height: nth($height, 8 );
+    @include distribucion;
+    &:hover{
+        transform: scale(2);
+    }
+}
+
+.barreco{
+    width: nth($width , 5 );
+    height: nth($height , 8 );
+    &:hover{
+        transform: scale(2);
+    }
+}
+
+.titulobar{
+    font-weight: bold;
+    font-size: nth($f-size , 2);
+}
+
+section{
+    @include texto;
+}
+
+.iconmapa{
+    width: nth($width , 2 );
+    height: nth($height, 6 );
+}
+
+.letramapa{
+    font-size: nth($f-size , 2);
+    color: nth($colores , 5 );
+}
+
+.bg-gray{
+    background-color: $bg-map;
+}
+
+footer{
+    @include texto;
+}
+
+.letrareco{
+    font-size: nth($f-size, 2);
+}
+
+.estrellas{
+    height: nth($height , 2 );
+    width: nth($width , 3 );
+}

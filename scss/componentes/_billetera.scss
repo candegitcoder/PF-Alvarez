@@ -1,0 +1,21 @@
+.billetera{
+    width: nth($width , 7 );
+    height: nth($height , 10 );
+    overflow: hidden;
+    @include inline;
+    @include texto;
+    
+    &:hover{
+        transform: translate(20px, 20px);
+    }
+}
+
+.dimagen{
+    width: nth($width, 5);
+    height: nth($height, 8);
+}
+
+.linea{
+    background-color: nth($colores , 1 );
+    color: nth($colores , 1 );
+}

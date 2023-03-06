@@ -1,0 +1,8 @@
+
+.imagen{
+    width: nth($width, 8 );
+    height: nth($height , 10);
+    @include inline;
+    padding: 30px;
+    margin: 30px;
+}

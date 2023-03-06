@@ -1,0 +1,16 @@
+.somos{
+    margin: 50px;
+}
+
+.icono{
+    width: nth($width , 2 );
+    height: nth($height , 6);
+}
+.comentarios{
+    width: nth($width, 7 );
+    height: nth($height, 9 );
+    overflow: hidden;
+    @include inline;
+    @include texto;
+    margin: 30px;
+}
