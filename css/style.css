@@ -113,6 +113,11 @@ footer {
   margin: 30px;
 }
 
+.fondo {
+  background-color: orangered;
+  padding: 20px;
+}
+
 .somos {
   margin: 50px;
 }
@@ -132,6 +137,20 @@ footer {
   margin: 30px;
 }
 
+@media screen and (max-width: 760px) {
+  .mapa {
+    text-align: center;
+    align-items: center;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mapa {
+    text-align: center;
+    align-items: center;
+    width: 300px;
+  }
+}
 
 
 /*# sourceMappingURL=style.css.map */
