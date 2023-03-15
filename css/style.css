@@ -28,15 +28,40 @@ main {
   padding: 100px;
 }
 
+.card-group {
+  padding: 30px;
+}
+
+.card {
+  align-items: center;
+}
+
 .bar {
+  align-items: center;
   width: 250px;
   height: 200px;
   justify-content: center;
-}
-.bar:hover {
-  transform: scale(2);
+  border-radius: 20px;
 }
 
+@media screen and (max-width: 830px) {
+  .bar {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .bar {
+    width: 150px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .bar {
+    width: 250px;
+    height: 200px;
+  }
+}
 .barreco {
   width: 200px;
   height: 200px;
@@ -83,6 +108,14 @@ footer {
   width: 100px;
 }
 
+.lfooter {
+  background-color: orangered;
+  padding: 20px;
+  border: 40px;
+  color: white;
+  font-size: 20px;
+}
+
 .billetera {
   width: 400px;
   height: 400px;
@@ -95,11 +128,29 @@ footer {
   transform: translate(20px, 20px);
 }
 
+.sectionbille {
+  padding: 40px;
+}
+
 .dimagen {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
 }
 
+.bimagen {
+  width: 200px;
+  height: 150px;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .bimagen {
+    width: 400px;
+    height: 200px;
+    align-items: center;
+  }
+}
 .linea {
   background-color: orangered;
   color: orangered;

@@ -30,12 +30,40 @@ main{
     padding: nth($padding , 2);
 }
 
+.card-group{
+    padding: 30px;
+}
+
+.card{
+    align-items: center;
+}
+
 .bar{
+    align-items: center;
     width: nth($width , 6);
     height: nth($height, 8 );
     @include distribucion;
-    &:hover{
-        transform: scale(2);
+    border-radius: 20px;
+}
+
+@media screen and (max-width:830px){
+    .bar{
+        width: nth($width , 5 );
+        height: nth($height , 8 );
+    }
+}
+
+@media screen and (max-width:670px){
+    .bar{
+        width: nth($width , 4 );
+        height: nth($height , 8 );
+    }
+}
+
+@media screen and (max-width:574px){
+    .bar{
+        width: nth($width , 6 );
+        height: nth($height , 8 );
     }
 }
 
@@ -81,4 +109,12 @@ footer{
 .estrellas{
     height: nth($height , 2 );
     width: nth($width , 3 );
+}
+
+.lfooter{
+    background-color: nth($colores , 1 );
+    padding: 20px;
+    border: 40px;
+    color: white;
+    font-size: 20px;
 }

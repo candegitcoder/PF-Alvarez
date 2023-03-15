@@ -10,9 +10,28 @@
     }
 }
 
+.sectionbille{
+    padding: 40px;
+}
+
 .dimagen{
     width: nth($width, 5);
     height: nth($height, 8);
+    border-radius: 20px;
+}
+
+.bimagen{
+    width: nth($width , 5 );
+    height: nth($width , 4 );
+    border-radius: 40px;
+}
+
+@media screen and (max-width:767px){
+    .bimagen{
+        width: nth($width , 7 );
+        height: nth($height , 8 );
+        align-items: center;
+    }
 }
 
 .linea{
