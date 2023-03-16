@@ -5,6 +5,7 @@
 .icono{
     width: nth($width , 2 );
     height: nth($height , 6);
+    border-radius: 40px;
 }
 .comentarios{
     width: nth($width, 7 );

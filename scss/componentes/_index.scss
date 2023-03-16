@@ -12,6 +12,10 @@ header{
     }
 }
 
+.buscar{
+    border-radius: 20px;
+}
+
 .nav-item{
     width: nth($width , 4 );
     height: nth($height , 4 )
@@ -31,7 +35,8 @@ main{
 }
 
 .card-group{
-    padding: 30px;
+    padding: 20px;
+    padding-top: 200px;
 }
 
 .card{
@@ -70,9 +75,6 @@ main{
 .barreco{
     width: nth($width , 5 );
     height: nth($height , 8 );
-    &:hover{
-        transform: scale(2);
-    }
 }
 
 .titulobar{
@@ -109,16 +111,58 @@ footer{
 .estrellas{
     height: nth($height , 2 );
     width: nth($width , 3 );
+    margin-bottom: 50px;
 }
 
 .lfooter{
-    background-color: nth($colores , 1 );
-    padding: 20px;
+    background-color: rgb(255, 119, 69);
+    padding: nth($padding , 1 );
     border: 40px;
     color: white;
-    font-size: 20px;
+    font-size: 13px;
+    text-align: left;
+
 }
 
-.body{
-    background-color: rgb(236, 236, 236);
+.titulo{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    padding-bottom: 50px;
+}
+
+.textocarta{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+}
+
+.textoreco{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: nth($f-size , 3 );
+    text-decoration: underline;
+
+}
+
+.section{
+    background-color: nth($colores , 1 );
+    display: flex;
+    height: nth($height , 7 );
+}
+
+.mockup{
+    padding-bottom: 100px;
+    width: nth($width , 7 );
+    height: nth($height , 10 );
+    text-align: left;
+}
+
+
+.textomockup{
+    display: inline;
+    color: nth($colores , 5 );
+    padding-top:  50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
