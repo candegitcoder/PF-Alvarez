@@ -177,6 +177,18 @@ footer {
   padding: 40px;
 }
 
+@media screen and (max-width: 680px) {
+  .sectionbille {
+    width: 500px;
+    align-items: center;
+    display: flex;
+  }
+}
+.seccionbille {
+  text-align: center;
+  align-items: center;
+}
+
 .dimagen {
   width: 200px;
   height: 200px;
@@ -241,11 +253,11 @@ footer {
     width: 400px;
   }
 }
-@media screen and (max-width: 400px) {
-  .mapa {
+@media screen and (max-width: 680px) {
+  .body {
     text-align: center;
     align-items: center;
-    width: 300px;
+    width: 800px;
   }
 }
 
