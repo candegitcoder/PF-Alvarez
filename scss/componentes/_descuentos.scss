@@ -1,13 +1,30 @@
 
 .imagen{
     width: nth($width, 8 );
-    height: nth($height , 10);
     @include inline;
-    padding: 30px;
-    margin: 30px;
+    justify-content: center;
 }
 
 .fondo{
     background-color: nth($colores , 1 );
     padding: 20px;
 }
+
+@media screen and (max-width:680px){
+    .casatomada{
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+    .descuentos2{
+        padding: 20px;
+        border: 0;
+        margin: 0;
+    }
+    .volendam{
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+}
+

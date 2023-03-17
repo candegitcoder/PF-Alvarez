@@ -215,10 +215,8 @@ footer {
 
 .imagen {
   width: 500px;
-  height: 400px;
   display: inline-block;
-  padding: 30px;
-  margin: 30px;
+  justify-content: center;
 }
 
 .fondo {
@@ -226,6 +224,23 @@ footer {
   padding: 20px;
 }
 
+@media screen and (max-width: 680px) {
+  .casatomada {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  .descuentos2 {
+    padding: 20px;
+    border: 0;
+    margin: 0;
+  }
+  .volendam {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+}
 .somos {
   margin: 50px;
 }
@@ -257,7 +272,7 @@ footer {
   .body {
     text-align: center;
     align-items: center;
-    width: 1000px;
+    width: 700px;
   }
 }
 
