@@ -15,3 +15,12 @@
     @include texto;
     margin: 30px;
 }
+
+@media screen and (max-width: 576px){
+    .comentarios{
+        width: 100%;
+        padding: 20px;
+        margin: 0px;
+    }
+
+}

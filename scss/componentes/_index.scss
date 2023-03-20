@@ -16,16 +16,14 @@ header{
     border-radius: 20px;
 }
 
+.textocartas{
+padding:0px;
+}
 .nav-item{
     width: nth($width , 4 );
     height: nth($height , 4 )
 }
 
-main{
-    @include texto;
-    color: nth($colores , 1);
-    font-size: nth($f-size , 2);
-}
 
 .row-bares{
     @include distribucion;
@@ -65,16 +63,37 @@ main{
     }
 }
 
-@media screen and (max-width:574px){
+@media screen and (max-width:576px){
     .bar{
         width: nth($width , 6 );
         height: nth($height , 8 );
     }
-}
+    .textomockup{
+        width: 100%;
+        justify-content: center;
+        font-size: medium;
+        padding-top: 0px;
+        padding: 0px 20px 30px 20px;
+        
 
+    }
+    .mockup{
+        display: none;
+    }
+    .card-group{
+    padding-top: 50px;
+    }
+    .titulo{
+        padding-bottom: 0px;
+    }
+    .textocarta{
+        padding: 20px;
+    }
+}
 .barreco{
     width: nth($width , 5 );
     height: nth($height , 8 );
+    border-radius: 5%;
 }
 
 .titulobar{
@@ -129,11 +148,14 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-weight:900;
     padding-bottom: 50px;
+    color: nth($colores, 1 );
+    text-align: center;
 }
 
 .textocarta{
     font-family: 'Montserrat', sans-serif;
     font-weight:300;
+    padding: 20px;
 }
 
 .textoreco{
@@ -145,10 +167,11 @@ footer{
 
 }
 
-.section{
+.seccion{
     background-color: nth($colores , 1 );
     display: flex;
     height: nth($height , 7 );
+    align-items: center;
 }
 
 .mockup{
@@ -167,4 +190,12 @@ footer{
     text-align: center;
 }
 
+.barra {
+    max-width: 100%;
+}
 
+.mockupo{
+    height: 200px;
+    width: 200px;
+    display: none;
+}

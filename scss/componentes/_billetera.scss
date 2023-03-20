@@ -14,13 +14,30 @@
     padding: 40px;
 }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:576px){
     .sectionbille{
-        width: 500px;
+        width: 100%;
         align-items: center;
         display: flex;
+        margin: 0px;
     }
+    .billetera{
+        width: 100%;
+    }
+    .seccionbilletera{
+        display: flex;
+        justify-content: center;
+
+    }
+    .textoreco{
+        padding: 20px;
+        font-size: x-large;
+
+    }
+    
 }
+.textoreco
+.seccionbilletera 
 
 .seccionbille{
     text-align: center;
